@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Header from "../common/Header";
 import myImage from "../assets/img/header-bg.jpg";
+import Services from "./ServicesPage/Services";
+import Portfolio from "./PortfolioPage/Portfolio";
 
 export default class Home extends Component {
   render() {
@@ -14,6 +16,8 @@ export default class Home extends Component {
           buttonLink="/about"
           image={myImage}
         />
+        <Services />
+        <Portfolio />
       </div>
     );
   }
